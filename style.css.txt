@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #f0c14b;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin: 0 10px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #f0c14b;
+    font-weight: bold;
+}
+
+.home-section, .services-section, .gallery-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #f0c14b;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-section input, .contact-section textarea, .contact-section button {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #f0c14b;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #f0c14b;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
